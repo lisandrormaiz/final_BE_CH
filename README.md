@@ -6,7 +6,7 @@ Mongo Atlas
 Observaciones
 No se utiliza JWT, en su lugar se utiliza sessions cuyo id se almancena en el cliente utilizando passport y express session. Poseen un tiempo de expiración en minutos, que se refresca con cada request. Los datos de dichas sessions se almacenan del lado del server en la nube (Mongo Atlas).
 
-Heroku deploy: https://backend-entrega-final-coder.herokuapp.com/ (nota: facebook no está accesible como autenticación por requiere instalar ACM para el manejo de certificados SSL, que es pago)
+Heroku deploy: https://backend-entrega-final-coderl.herokuapp.com/ (nota: facebook no está accesible como autenticación por requiere instalar ACM para el manejo de certificados SSL, que es pago)
 
 Listado de requests con sus endpoints para usar con POSTMAN: https://www.getpostman.com/collections/1740382bdd3779037cba
 
